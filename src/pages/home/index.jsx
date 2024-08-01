@@ -34,10 +34,8 @@ function Home() {
   return (
     <div className='container-home'>
 
-      
-
       <div className='logo'>
-        <img src="/link.png" alt="ShortLink Logo" width={250} />
+        <img src="./link.png" alt="ShortLink Logo" width={250} />
         <span>Deixe seus links mais curtos e charmosos em apenas um clique!</span>
       </div>
 
