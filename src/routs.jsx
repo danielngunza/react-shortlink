@@ -7,7 +7,7 @@ function RouteApp(){
     return(
         <BrowserRouter>
             <Routes>
-                 <Route path='/' element={<Home/>} />
+                 <Route path='/react-shortlink' element={<Home/>} />
                  <Route path='/MyLinks' element={<Links/>} />
                  <Route path='*' element={<Error/>}/>
             </Routes>

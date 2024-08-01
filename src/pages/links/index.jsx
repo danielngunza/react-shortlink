@@ -44,7 +44,7 @@ async function handleDelete(id){
   return (
     <div className='links-container'>
       <div className='links-header'>
-       <Link to="/"> 
+       <Link to="/react-shortlink"> 
        <FiArrowLeft size={38} color='#fff' />
        </Link > 
         
@@ -53,7 +53,7 @@ async function handleDelete(id){
 
       {emptyLink && (
         <div className="empty">
-          <img src="/caixa-vazia.png" alt="Sem Lonks" width={250} />
+          <img src="public/caixa-vazia.png" alt="Sem Links" width={250} />
           <h2 className='empty-text'>Sem links na lista...</h2>
         </div>
       )}
